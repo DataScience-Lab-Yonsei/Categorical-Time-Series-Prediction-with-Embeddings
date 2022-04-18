@@ -14,6 +14,8 @@ ___
 Embedding을 적용한 후, action_type을 예측하는 모델링 코드이다.(모델 튜닝 전)   
 * #### Transformer_action_type_prediction   
 직관적인 분류, 임베딩 기반 분류로 action_type을 군집화하여 예측한 모델링 코드이다.
+* #### metrics   
+히스토그램, 상관계수 행렬등의 그래프를 출력하는 코드이다. 
 * #### LSTM_action_type_prediction   
 LSTM으로 action_type을 예측하는 모델링 코드이다. Embedding&Transformer기법을 활용한 모델보다 성능이 낮아 summary에는 활용되지 않았다.
 * #### time_series_clustering_10series & time_sereis_clustering_2   
