@@ -65,6 +65,7 @@ BST(Behavior Sequence Transformer) 모델을 참고했다.(Refrence 첨부) 모�
 ✔ Embedding 값이 학습을 통해 의미적으로 비슷한, 즉, 유의미한 관계를 분석하여 데이터를 군집으로 해석할 수 있는 효과가 있음   
 
 # Result
+Test set 기준 약 62%의 정확도로,레이블의 분포 및인간의 행동을 예측했다는 점, categorical한 데이터를 예측한 것을 고려하면 괜찮은 예측 결과라고 말할 수 있다.
 ![image](https://user-images.githubusercontent.com/87710236/163810941-152be157-c434-4fee-aa21-410378cd84b2.png)
 ![image](https://user-images.githubusercontent.com/87710236/163810987-984be1e8-4ab2-48b6-a3a4-20054f483f3d.png)
 
@@ -73,6 +74,7 @@ BST(Behavior Sequence Transformer) 모델을 참고했다.(Refrence 첨부) 모�
 ![image](https://user-images.githubusercontent.com/87710236/163810862-ca98b952-9bf4-4a3d-bbe9-82d0ac3828fc.png)
 
 # Result
+action_type이 8개에서 3개로 줄었기 때문에 Tuning이 없을 때보다 군집화를 잘한다면 Accuracy가 높아질 것을 예상해 볼 수 있다. 실제로, Embedding 기반으로 분류한 것이 Accuracy가 81.64%로, 직관적인 분류의 Accuracy인 73.6% 보다 높게 결과가 나왔다. 
 ![image](https://user-images.githubusercontent.com/87710236/163810898-bae74eee-7760-4ead-bdf6-0ec994a60968.png)
 
 # Conclusion
