@@ -35,6 +35,7 @@ ___
 # modeling_summary를 통한 프로젝트 설명
 
 # Overview
+플랫폼 내에서 고객 행동 데이터를 기반으로 다음 행동을 예측하여 Personalized한 서비스 제공할 수 있는 기회 제공을 목적으로 하는 시계열 예측 모델링프로젝트이다.
 ![image](https://user-images.githubusercontent.com/87710236/163808879-1f22bf51-ec87-4327-8676-11a8e7861380.png)
 
 # Data Preprocessing
